@@ -1,24 +1,95 @@
-/*stylesheets*/
-
-* {
+body{
+	background-color: white;
+}
+.container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+*{
 	box-sizing: border-box;
 }
-
-body {
-	font-family: sans-serif;
+/*Header*/
+#header-nav{
+	position: static;
+	background-color: #8F96FF;
+	/*height: 100px;*/
 }
-
-h1 {
-	margin-top: 0;
-	margin-bottom: 20px;
+#brand{
+	height: 100px;
+	text-align: center;
 }
+#brand a{
+	color: white;
+}
+#brand a:hover , #brand a:focus{
+	text-decoration: none;
+}
+#btn{
+	background-color: white;
+}
+#btn span{
+	background-color: #8F96FF;
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  /*color: #951C49;*/
+  text-align: center;
+}
+#nav-list a:hover {
+  /*background: #E7E7E7;*/
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+/*End of Header*/
 
-
-div.section{
-	background-color: #d1d1d1;
-	padding: 1px 10px;
+/*main content*/
+#menu {
+	font-weight: bold;
 	margin-bottom: 30px;
 }
-#top {
-	position: absolute;
+#main{
+
+}
+#main section{
+	background-color: #8F96FF;
+	padding: 5px;
+	margin-bottom: 30px;
+}
+#main section p{
+	
+}
+/*end of main content*/
+@media (min-width: 768px) and (max-width: 991px){  /*medium*/
+/*.container{
+	width: 100%;
+	margin: 0;*/
+}
+}
+@media (max-width: 767px){							/*small*/
+/*.container{
+	width: 100%;
+	margin: 0;
+}*/
+#header-nav{
+	margin: 0;
+	/*height: 100px;*/
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+ #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
 }
