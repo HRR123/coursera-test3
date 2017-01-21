@@ -1,6 +1,6 @@
 /******************************************************************
  *
- * Copyright (C) 2016 Philip Luk - All Rights Reserved
+ * Copyright (C) 2016 Rateq - All Rights Reserved
  *
  * This file is subject to the terms and conditions defined in
  * file 'LICENSE.txt', which is part of this source code package.
